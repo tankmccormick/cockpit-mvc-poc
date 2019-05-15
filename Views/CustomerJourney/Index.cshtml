@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Customer Journey";
+}
+
+<div id="customerJourney"
+     class="app"
+     token="@Session["token"]"></div>
+
+@section scripts{
+    <script type="text/javascript"
+            src="~/ClientApps/customer-journey/dist/bundle.js"></script>
+}

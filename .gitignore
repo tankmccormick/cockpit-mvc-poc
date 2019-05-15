@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ClientApps/customer-journey/node_modules
+/ClientApps/fraud-tracker/node_modules
+/obj/Debug
+/packages
+/bin
+/.vs

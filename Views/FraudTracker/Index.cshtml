@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Fraud Tracker";
+}
+
+<div id="fraudTracker"
+     class="app"
+     token="@Session["token"]"></div>
+
+@section scripts{
+    <script type="text/javascript"
+            src="~/ClientApps/fraud-tracker/dist/bundle.js"></script>
+}

@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+
+<header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a aria-current="page" class="navbar-brand active" href="/">Cockpit</a>
+            <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-link nav-item"><a href="/fraud-tracker">Fraud Tracker</a></li>
+                    <li class="nav-link nav-item"><a href="/customer-journey">Customer Journey</a></li>
+                    <li class="nav-link nav-item">@Html.ActionLink("Logout", "Logout", "Authentication")</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,23 @@
+﻿@model MVCCockpit.ViewModels.LoginViewModel
+@{
+    ViewBag.Title = "Cockpit";
+    Layout = "~/Views/Shared/_LoggedOutLayout.cshtml";
+}
+
+<section class="container">
+    <h1>Login</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Mauris iaculis, tortor sed aliquam condimentum, vitae congue lacus dolor a nulla.
+        Curabitur pretium felis et sem tristique rhoncus.
+        In commodo dolor dolor, vitae lobortis orci tempus et.
+    </p>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.ReturnUrl)
+
+        <input type="submit" value="Login" />
+    }
+</section>

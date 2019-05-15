@@ -1,0 +1,21 @@
+﻿@import "base/custom-bootstrap";
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #f8f9fa;
+    padding: 9px 0;
+    z-index: 2;
+}
+
+.app {
+    height: calc(100% - 80px);
+    overflow: auto;
+}
