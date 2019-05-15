@@ -2,6 +2,11 @@
     ViewBag.Title = "Fraud Tracker";
 }
 
+@section styles{
+    <link rel="stylesheet"
+          href="~/ClientApps/fraud-tracker/dist/fraud-tracker.min.css" />
+}
+
 <div id="fraudTracker"
      class="app"
      token="@Session["token"]"></div>

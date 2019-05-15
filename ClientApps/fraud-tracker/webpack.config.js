@@ -55,11 +55,10 @@ const copyConfig = {
     ]
 };
 
-/*
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const cssConfig = {
     context: __dirname,
-    entry: './scss/main.scss',
+    entry: './scss/fraud-tracker.scss',
     output: {
         path: __dirname + '/dist',
         filename: 'ignore.css'
@@ -79,10 +78,9 @@ const cssConfig = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'main.min.css'
+            filename: 'fraud-tracker.min.css'
         })
     ]
 };
-*/
 
-module.exports = [reactConfig, copyConfig];
+module.exports = [reactConfig, copyConfig, cssConfig];

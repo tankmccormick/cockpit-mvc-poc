@@ -140,6 +140,7 @@
   <ItemGroup>
     <Content Include="ClientApps\customer-journey\app.js" />
     <Content Include="ClientApps\customer-journey\dist\bundle.js" />
+    <Content Include="ClientApps\customer-journey\dist\main.min.css" />
     <Content Include="ClientApps\customer-journey\index.html" />
     <Content Include="ClientApps\customer-journey\main.js" />
     <Content Include="ClientApps\customer-journey\pages\home.js" />
@@ -149,6 +150,8 @@
     <Content Include="ClientApps\fraud-tracker\contexts\rootUrlContext.js" />
     <Content Include="ClientApps\fraud-tracker\contexts\tokenContext.js" />
     <Content Include="ClientApps\fraud-tracker\dist\bundle.js" />
+    <Content Include="ClientApps\fraud-tracker\dist\fraud-tracker.min.css" />
+    <Content Include="ClientApps\fraud-tracker\dist\main.min.css" />
     <Content Include="ClientApps\fraud-tracker\index.html" />
     <Content Include="ClientApps\fraud-tracker\main.js" />
     <Content Include="ClientApps\fraud-tracker\pages\home.js" />
@@ -184,6 +187,7 @@
     <Content Include="ClientApps\customer-journey\.babelrc" />
     <Content Include="ClientApps\customer-journey\package-lock.json" />
     <Content Include="ClientApps\customer-journey\package.json" />
+    <Content Include="ClientApps\fraud-tracker\scss\fraud-tracker.scss" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
